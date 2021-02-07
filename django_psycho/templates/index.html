@@ -1,0 +1,22 @@
+{% extends "base.html"  %}
+{% load static %}
+{% block content %}
+
+
+
+    <h4>index </h4>
+
+    {% for psycholog in psychologistic %}
+        <br><br>{{ psycholog.name }}<br>
+        <img src="media/{{psycholog.img}}" alt="img" width="350" height=auto><br>
+        {% for method in psycholog.methods.all %}
+            {{ method }}<br>
+
+        {% endfor %}
+    {% endfor %}
+<br>
+<br>
+<br>
+<!--{{ test_methods }}-->
+
+{% endblock %}
