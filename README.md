@@ -35,4 +35,8 @@ test project - Vue.js | PosgreSQL | Django
 3. Скрипт Добавляет или изменяет методы Психологов, их фото и имена.
 
 
+![alt tag](https://drive.google.com/file/d/1A7UdZXoASZHpGb5R3P9O0nTHFB8d6cMr/view?usp=sharing "Верстка по мокаппу")​
+
+
+
 PS В качестве дополнительного фреймворка для фронта был использован Bootstrap 
