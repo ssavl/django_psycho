@@ -34,6 +34,8 @@ test project - Vue.js | PosgreSQL | Django
    
 3. Скрипт Добавляет или изменяет методы Психологов, их фото и имена.
 
+Получаю данные по API = https://api.airtable.com/v0/appcwI1WoIl9Gp7Wc/Psychotherapists
+
 
 ![alt tag](http://drive.google.com/uc?export=view&id=1A7UdZXoASZHpGb5R3P9O0nTHFB8d6cMr "Верстка по мокапу")​
 
