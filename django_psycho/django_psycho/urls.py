@@ -17,15 +17,13 @@ from django.contrib import admin
 from django.urls import path
 from django_psycho import settings
 from django.conf.urls.static import static
-from psycho.views import start
-
+from psycho.views import PsychoMastersList, PsychoMastersDetail
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', start)
+    path('doctors/', PsychoMastersList.as_view()),
+    path('doctors/<int:pk>', PsychoMastersDetail.as_view())
 ]
-
-
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,
